@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "Node16",              // 🔥 FIXED
+    "moduleResolution": "node16",    // 🔥 MATCHED
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "strict": true,
+    "esModuleInterop": true,
+
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+
+    "types": ["node"],
+
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
